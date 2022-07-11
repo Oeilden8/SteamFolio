@@ -1,12 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home/Home";
+import Magasin from "./components/Magasin/Magasin";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Template Front-End</header>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Magasin />}></Route>
       </Routes>
     </div>
   );
